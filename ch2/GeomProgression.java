@@ -43,20 +43,20 @@ public class GeomProgression extends Progression{
 	
 	//Inherits methods firtValue() and printProgression(int).
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		GeomProgression gp = new GeomProgression();
-		gp.base =2;
-		gp.printProgression(5);
-		gp.printProgression(36);
-		
-		ArithProgression ap = new ArithProgression();
-		ap.inc = 2;
-		ap.printProgression(5);
-		ap.printProgression(36);
-		
-		Progression p = new Progression();
-		p.printProgression(5);
-		p.printProgression(36);
-	}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		GeomProgression gp = new GeomProgression();
+//		gp.base =2;
+//		gp.printProgression(5);
+//		gp.printProgression(36);
+//		
+//		ArithProgression ap = new ArithProgression();
+//		ap.inc = 2;
+//		ap.printProgression(5);
+//		ap.printProgression(36);
+//		
+//		Progression p = new Progression();
+//		p.printProgression(5);
+//		p.printProgression(36);
+//	}
 }
