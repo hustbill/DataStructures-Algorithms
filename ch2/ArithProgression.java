@@ -1,8 +1,4 @@
 
-
-import java.io.*;
-import java.util.*;
-
 /**
  * Arithmetic progression
  * @author hua.zhang

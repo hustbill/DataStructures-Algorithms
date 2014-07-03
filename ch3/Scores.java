@@ -4,7 +4,11 @@
  * @author hua.zhang
  *
  */
+<<<<<<< HEAD
 public class Scores  {
+=======
+public class Scores {
+>>>>>>> e4e8dad348a39f52107b56fe92c92a74258f430a
 	public static final int maxEntries  = 10 ;	//nuber of high scores we keep
 	protected int numEntries;		//number of actual entries
 	protected GameEntry[]  entries;	 //array of game entries (name & scores) 
@@ -24,6 +28,7 @@ public class Scores  {
 		
 	}
 	// ... method for updating the set of high scores go here ...
+<<<<<<< HEAD
 	public GameEntry remove(int i ) throws IndexOutOfBoundsException {
 		if((i < 0) || (i > numEntries) )
 			throw new IndexOutOfBoundsException("Invalid index: "  + i);
@@ -36,4 +41,6 @@ public class Scores  {
 		
 	}
 	
+=======
+>>>>>>> e4e8dad348a39f52107b56fe92c92a74258f430a
 }

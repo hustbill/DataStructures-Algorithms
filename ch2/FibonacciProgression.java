@@ -1,8 +1,4 @@
 
-import java.io.*;
-import java.util.*;
-
-
 /**
  * Fibonacci Progression
  * @author hua.zhang
