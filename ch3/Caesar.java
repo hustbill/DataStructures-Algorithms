@@ -42,9 +42,17 @@ public class Caesar {
 		secret = cipher.encrypt(secret);
 		System.out.println(secret);  		// the ciphertext
 		secret = cipher.decrypt(secret); 
-		System.out.println(secret);			// should be plaintext again
-		
+		System.out.println(secret);			// should be plaintext again		
 
 	}
 
 }
+
+/** Result
+ * 
+ * Encryption order = DEFGHIJKLMNOPQRSTUVWXYZABC
+ * Decryption order = XYZABCDEFGHIJKLMNOPQRSTUVW
+ * WKH HDJOH LV LQ SODB ; PHHW DW MRH'V. 
+ * THE EAGLE IS IN PLAY ; MEET AT JOE'S. 
+ * */
+
