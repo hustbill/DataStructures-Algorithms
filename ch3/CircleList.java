@@ -21,8 +21,8 @@ public class CircleList {
 	public void advance() { cursor = cursor.getNext(); }
 	/** Add a node after the cursor */
 	public void add(Node newNode) {
-		if(cursor == null) { // list is empty
-			newNode.setNext(newNode);   // if the list is empty, then v becomes the cursor andits next pointer points to itself.
+		if(cursor == null) { // If the list is empty, then newNode becomes the cursor
+			newNode.setNext(newNode);  // and its next pointer points to itself.
 			cursor = newNode;
 		}
 		else {
