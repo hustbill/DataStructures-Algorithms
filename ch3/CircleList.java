@@ -14,6 +14,7 @@ public class CircleList {
 	public CircleList() { cursor = null; size = 0; }
 	/** Returns the current size */
 	public int size() { return size; }
+	
 	/** Returns the cursor */
 	public Node getCursor() { return cursor; }
 	/** Moves the cursor forward */
@@ -21,7 +22,7 @@ public class CircleList {
 	/** Add a node after the cursor */
 	public void add(Node newNode) {
 		if(cursor == null) { // list is empty
-			newNode.setNext(newNode);
+			newNode.setNext(newNode);   // if the list is empty, then v becomes the cursor andits next pointer points to itself.
 			cursor = newNode;
 		}
 		else {
