@@ -100,6 +100,11 @@ public class DList {
 		return s;
 	}
 	
+	public static int recursiveFactorial(int n)  {  //recursive factorail function 
+		if (n==0) return 1;							// base case
+		else return  n * recursiveFactorial(n-1);	// recursive case
+	}
+	
 	/** Verify the methods */
 	public static void main(String[] args) {
 		DList dl = new DList();
@@ -114,6 +119,13 @@ public class DList {
 		DNode middle = new DNode("middle", null, null);
 		dl.addAfter(header, middle);
 		System.out.println(dl);
+		
+		int n = 5;
+		System.out.print(recursiveFactorial(n));
+		
+		
+		
+		
 	}
 	
 	

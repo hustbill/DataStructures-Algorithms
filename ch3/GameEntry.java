@@ -1,15 +1,10 @@
 
-<<<<<<< HEAD
 /**
  * GameEntry
  * 
  * @author hua.zhang
  *
  */
-=======
-import java.io.*;
-
->>>>>>> e4e8dad348a39f52107b56fe92c92a74258f430a
 public class GameEntry {
 
 	protected String name;   	// name of the person earing this score
@@ -28,8 +23,5 @@ public class GameEntry {
 		return "(" + name + "," + score + ")";
 	}
 	
-<<<<<<< HEAD
 
-=======
->>>>>>> e4e8dad348a39f52107b56fe92c92a74258f430a
 }

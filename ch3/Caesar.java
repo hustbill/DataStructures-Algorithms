@@ -42,7 +42,8 @@ public class Caesar {
 		secret = cipher.encrypt(secret);
 		System.out.println(secret);  		// the ciphertext
 		secret = cipher.decrypt(secret); 
-		System.out.println(secret);			// should be plaintext again		
+		System.out.println(secret);			// should be plaintext again
+		
 
 	}
 
@@ -55,4 +56,3 @@ public class Caesar {
  * WKH HDJOH LV LQ SODB ; PHHW DW MRH'V. 
  * THE EAGLE IS IN PLAY ; MEET AT JOE'S. 
  * */
-
