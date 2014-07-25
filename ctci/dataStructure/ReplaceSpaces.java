@@ -5,6 +5,12 @@ package dataStructure;
 
 /**
  * @author Hua Zhang, July 24, 2014
+ * Description:
+ *    write a method to rpelace all spaces in a string with '%20'. You may assume
+ *    that the string has sufficient space at the end of the string. to hold the additional characters. 
+ *    and that you are given the "true" length to the string.
+ *    (Note: if implementing in java, please use a character array so that you can perform
+ *    this operation in place.)
  *  Question： i still don't know why use  two  scan approach. , what's the value of length?
  */
 public class ReplaceSpaces {
@@ -17,8 +23,9 @@ public class ReplaceSpaces {
 
 		char[] str = { 'a', ' ', 'g','o','o','d',' ', 'b', 'o','y'};
 		int length =21;
-		//System.out.println(str);
-		replaceSpaces(str, length);
+		System.out.println(str);
+		System.out.println(str.length);
+		replaceSpaces(str, str.length*3);
 		//System.out.println(str);
 	}
 	
