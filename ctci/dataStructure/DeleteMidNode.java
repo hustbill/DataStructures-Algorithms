@@ -22,28 +22,37 @@ public class DeleteMidNode {
 	
 		Node k = new  Node(1);
 		k.appendToTail(21);
-		Node result = deleteMidNode( dl, k );
+		boolean result = deleteMidNode( dl, k );
 		System.out.println();
-		System.out.println("delete");
-		while(result.next  != null) {	
+		System.out.print(result);
+		
+		
+		Node n = deleteMidNodeExec( dl, k );
+		while(n.next  != null && n.next.next !=null) {	
 			System.out.print("->");
-		System.out.print(result.next.data);		
-		result.next = result.next.next;
+			System.out.print(n.next.data);		
+			n.next = n.next.next;
 		}
-	
+		
 	}
 	
-	public static Node  deleteMidNode( Node n, Node k) {
-		if ( k.next == null) return null ;
-			  
-		  Node prev = new Node(1);
-		  prev.next = k;	  
-		 Node next = k.next;		 
-		  prev.next = next;		 
-		  
-		  
-		return prev;
-		
-		
+	public static boolean  deleteMidNode( Node n, Node k) {
+		if ( k == null || k.next == null) {
+			return false ; /// Failure
+		}  
+		 Node next = k.next;
+		 n.data = next.data;
+		 n.next = next.next; 
+		 return true;
+	}
+	
+	public static Node  deleteMidNodeExec( Node n, Node k) {
+		if ( k == null || k.next == null) {
+			return null ; /// Failure
+		}  
+		 Node next = k.next;
+		 n.data = next.data;
+		 n.next = next.next; 
+		 return next;
 	}
 }
