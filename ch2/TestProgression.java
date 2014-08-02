@@ -1,7 +1,3 @@
-import java.io.*;
-import java.util.*;
-
-
 /** 
  *  Test program for the progression classes 
  * @author hua.zhang

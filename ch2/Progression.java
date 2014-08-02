@@ -1,8 +1,3 @@
-
-
-import java.io.*;
-import java.util.*;
-
 /**
  *  A class for numeric progression
  * @author hua.zhang

@@ -1,9 +1,3 @@
-
-
-import java.io.*;
-import java.util.*;
-
-
 /**
  * Gemotric progression 
  * @author hua.zhang
