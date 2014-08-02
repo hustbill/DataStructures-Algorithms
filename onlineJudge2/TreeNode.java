@@ -1,5 +1,3 @@
-package OnlineJudge;
-
 /**
  * Definition for binary tree
  * public class TreeNode {

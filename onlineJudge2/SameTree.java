@@ -1,4 +1,3 @@
-package OnlineJudge;
 
 /**
  * Definition for binary tree

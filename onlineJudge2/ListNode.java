@@ -1,5 +1,3 @@
-package OnlineJudge;
-
 /**
 * Definition for singly-linked list.
 */
