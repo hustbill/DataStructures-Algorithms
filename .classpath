@@ -3,6 +3,7 @@
 	<classpathentry kind="src" path="ch2"/>
 	<classpathentry kind="src" path="ctci"/>
 	<classpathentry kind="src" path="onlineJudge2"/>
+	<classpathentry kind="src" path="ch3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
